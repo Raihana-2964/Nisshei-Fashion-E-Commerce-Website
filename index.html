@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nisshei</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <!-- linking my css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <h1>Nisshei</h1>
+        <div class="navbarlinks">
+           <p class="navbarlink"><a href="">Home</a></p> 
+            <p class="navbarlink"><a href="">Collections</a></p>
+            <p class="navbarlink"> <a href="">Contact Us</a></p>
+        </div>
+         <div class="navbartoggle" onclick="shownavbar()">
+        <i class="fa-solid fa-bars"></i>
+         </div>
+        
+    </nav>
+    <!-- side navbar -->
+    <div class="sidenavbar">
+        <p style="text-align: right;" onclick="closenavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+   
+    <div class="sidenavbarlinks">
+        <p class="sidenavbarlink"><a href="">Home</a></p> 
+         <p class="sidenavbarlink"><a href="">Collections</a></p>
+         <p class="sidenavbarlink"> <a href="">Contact Us</a></p> 
+    </div>
+    </div>
+    <!-- header -->
+    <div class="header">
+        <div>
+            <h1>Level up Your Style</h1>
+            <p>With our stunning Collections</p>
+            <button>Shop Now</button>
+        </div>
+        <div>
+            <img class="headerimage"src="https://plus.unsplash.com/premium_photo-1698530141986-d5639483b55c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmFzaGlvbiUyMHBpY3R1cmVzJTIwd2l0aCUyMDMwMHgzMDAlMjBwaXhlbHxlbnwwfHwwfHx8MA%3D%3D">
+        </div>
+    </div>
+    <!-- service -->
+    <div class="service">
+        <div class="servicecontainer1">
+         <div>
+            <h2>We provide Best </h2>
+            <h2>Customer satisfaction and Experience</h2>
+         </div>
+        </div>
+        <div class="servicecontainer2">
+            <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <h4>satisfaction Gurantee</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, debitis.</p>
+            </div>
+            <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <h4>New Arrivals Everyday</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, debitis.</p>
+            </div>
+            <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <h4>Free Shipping</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, debitis.</p>
+            </div>
+        </div>
+    </div>
+    <div class="newarrival">
+        <div class="newarrcontainer">
+            <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmFzaGlvbiUyMHBpY3R1cmVzJTIwd2l0aCUyMDMwMHgzMDAlMjBwaXhlbHxlbnwwfHwwfHx8MA%3D%3D">
+            <button>Shop Now</button>
+        </div>
+        <div class="newarrcontainer">
+            <img src="https://images.unsplash.com/photo-1484327973588-c31f829103fe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmFzaGlvbiUyMHBpY3R1cmVzJTIwd2l0aCUyMDMwMHgzMDAlMjBwaXhlbHxlbnwwfHwwfHx8MA%3D%3D">
+            <button>Shop Now</button>
+        </div>
+        <div class="newarrcontainer">
+            <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmFzaGlvbiUyMHBpY3R1cmVzJTIwd2l0aCUyMDMwMHgzMDAlMjBwaXhlbHxlbnwwfHwwfHx8MA%3D%3D">
+            <button>Shop Now</button>
+        </div>
+    </div>
+    <!-- news -->
+    <div class="news">
+      <h2>Join our Green Card Customer</h2>
+      <p>Signup for the green card to get exclusive updates and discounts on purchases</p>
+      <div>
+        <input type="text" class="search">
+    </div>
+        <div>
+            <button>Subscribe</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footercontainer">
+            <div class="footerbox1">
+                <h2 class="heading">Nisshei</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, aspernatur.</p>
+                <div class="footericoncontainer">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </div>
+        </div>
+        <p>@2024Nisshei.com</p>
+</div>
+    <script src="index.js"></script>
+</body>
+
+</html>
