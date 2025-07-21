@@ -6,3 +6,8 @@ This is a front-end fashion website made using HTML, CSS, and JavaScript.
 - Home, About, Projects, Resume, Contact pages
 - Responsive design
 - Modern styling with CSS
+
+- ## 📁 Project Structure
+- index.html
+- style.css
+- images/
