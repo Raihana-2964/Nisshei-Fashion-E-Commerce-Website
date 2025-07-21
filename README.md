@@ -9,5 +9,6 @@ This is a front-end fashion website made using HTML, CSS, and JavaScript.
 
 - ## 📁 Project Structure
 - index.html
+- index.js
 - style.css
 - images/
