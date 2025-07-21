@@ -3,7 +3,7 @@
 This is a front-end fashion website made using HTML, CSS, and JavaScript.
 
 ## Features
-- Home, About, Projects, Resume, Contact pages
+- Home, Collections, Contact Us, Shop Now
 - Responsive design
 - Modern styling with CSS
 
